@@ -8,22 +8,35 @@ body {
 
 .header {
   color: aquamarine;
-  padding: 10px
+  padding: 10px 0 0 10px;
 }
 .header_container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 14px 0 8px 0;
-}
-
-.header_logo {
-}
-
-.logo_image {
+  padding: 0 0 10px 0;
 }
 
 .header_menu {
+  padding: 0px 10px 0px 10px;
+}
+
+.description {
+  height: 2048px;
+  width: 1365px;
+  background-image: url(img\about.jpg);
+}
+
+.logo_image {
+  font-size: 20px;
+  padding: 15px 0 0 15px;
+  color: aquamarine;
+}
+
+.setumei {
+  width: 50%;
+  color: white;
+  white-space: pre-wrap;
 }
 
 /* リンク文字 */
