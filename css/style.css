@@ -22,9 +22,10 @@ body {
 }
 
 .description {
-  height: 2048px;
-  width: 1365px;
-  background-image: url(img\about.jpg);
+  height: 1000px;
+  width: 100%;
+  background-image: url(/img/about.jpg);
+  word-break: break-all;
 }
 
 .logo_image {
@@ -34,9 +35,30 @@ body {
 }
 
 .setumei {
+  padding: 15px 0 0 15px;
   width: 50%;
   color: white;
-  white-space: pre-wrap;
+}
+
+.membber {
+  background-color: rgb(252, 252, 252);
+  color: aquamarine;
+  width: 100%;
+}
+
+.membber_taitoru {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vh;
+}
+
+.membber-item {
+  background-color: rgb(70, 87, 124);
+  color: aliceblue;
+  padding: 10px 10px 0 10px;
+  margin: 5px;
 }
 
 /* リンク文字 */
