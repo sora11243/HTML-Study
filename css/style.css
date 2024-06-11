@@ -29,7 +29,7 @@ body {
 }
 
 .logo_image {
-  font-size: 20px;
+  font-size: 30px;
   padding: 15px 0 0 15px;
   color: aquamarine;
 }
@@ -40,13 +40,15 @@ body {
   color: white;
 }
 
-.membber {
+.membber_title {
   background-color: rgb(252, 252, 252);
   color: aquamarine;
   width: 100%;
+  padding: 10px 0 0 20px;
+  font-size: 20px;
 }
 
-.membber_taitoru {
+.membber {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -55,10 +57,33 @@ body {
 }
 
 .membber-item {
-  background-color: rgb(70, 87, 124);
+  background-color: rgb(16, 26, 46);
   color: aliceblue;
   padding: 10px 10px 0 10px;
-  margin: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.game_title {
+  background-color: rgb(16, 26, 46);
+  font-size: 25px;
+  color: aquamarine;
+  padding: 40px 0 0 100px;
+  width: 100%;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vh;
+}
+
+.game_item {
+  background-color: rgb(231, 193, 180);
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  color: black;
 }
 
 /* リンク文字 */
