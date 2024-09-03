@@ -58,7 +58,7 @@ body {
 
 .membber-item {
   background-color: rgb(16, 26, 46);
-  color: aliceblue;
+  color: rgb(252, 253, 253);
   padding: 10px 10px 0 10px;
   margin: 10px;
   text-align: center;
@@ -84,6 +84,11 @@ body {
   text-align: center;
   padding: 20px 20px 0 20px;
   color: black;
+}
+
+.contact {
+  background-color: darksalmon;
+  color: aquamarine;
 }
 
 /* リンク文字 */
