@@ -129,9 +129,23 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="contact">
-      <div class="contact_title">contact</div>
+      <div class="contact">
+        <div class="contact_title">contact</div>
+        <label for="name">名前</label>
+        <input type="text" maxlength="8" size="30" />
+        <label for="seidbetu">性別</label>
+        <select name="seibetu" id="seibetu-select">
+          <option value="">無回答</option>
+          <option value="man">男</option>
+          <option value="woman">女</option>
+        </select>
+        <label for="e-mail">E-Mail</label>
+        <input type="email" size="30" />
+        <label for="inquiry">お問い合わせ内容</label>
+        <textarea id="inquiry" name="inquiry" rows="4" cols="40"></textarea>
+        <label for="sousinn"></label>
+        <input type="button" value="送信" />
+      </div>
     </div>
   </body>
   <!-- <a href="news.html"><p>rinku</p></a> -->

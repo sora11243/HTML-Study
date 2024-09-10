@@ -68,7 +68,7 @@ body {
   background-color: rgb(16, 26, 46);
   font-size: 25px;
   color: aquamarine;
-  padding: 40px 0 0 100px;
+  padding: 5% 0 5% 50px;
   width: 100%;
 }
 
@@ -76,7 +76,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100vh;
+  width: 100%;
 }
 
 .game_item {
@@ -87,8 +87,18 @@ body {
 }
 
 .contact {
-  background-color: darksalmon;
+  background-color: rgb(233, 122, 122);
+  padding: 5% 0 5% 5%;
+}
+
+.contact_title {
   color: aquamarine;
+  font-size: 30px;
+}
+
+label {
+  display: block;
+  margin: 0.4rem 0.2rem;
 }
 
 /* リンク文字 */
